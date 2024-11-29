@@ -1,0 +1,13 @@
+train: FruitsSplit/images/train
+val: FruitsSplit/images/val
+test:
+
+nc: 5
+names: ['Apple', 'Banana', 'Lemon', 'Orange', 'Pear']
+
+roboflow:
+  workspace: yolotrain-vfotx
+  project: fourfruits
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolotrain-vfotx/fourfruits/dataset/4
